@@ -3,59 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>MY BODY IS REGGIE</title>
 </head>
-<body>
+<body style="margin: 0;">
 
     <header>
-        <h1 style="background-color: rgb(227, 227, 227);">MY BODY IS REGGIE</h1> 
+        <h1 style="margin-left: 10px;">MY BODY IS REGGIE</h1> 
     </header>
 
-   <img src="reggie1.jpg" style="width: 200px;" alt="reggie big face"/>
-   
+    <div style="margin: 0;">
+    <img src="regginator.jpg" style="width: 100%;" alt="reggie big face"/>
+    </div>
+
+<div class="text">
+
     <h2>My name is Reggie, and I'm here to kick ass and take names.</h2>
 
-        <p>Former President of Nintendo of America, professional name-taker, ass-kicker, and proud owner of the phrase “My body is ready.”</p>
-        <p>Before I was meme’d into gaming history, I was just a kid from the Bronx trying to figure out how to take over the business world one bold move at a time. I’ve worked in fast food, soft drinks, TV networks, and, eventually, video games — which means I’ve basically mastered every form of dopamine delivery known to mankind.</p>
-        <p>In 2004, I walked onto the E3 stage and said a sentence that made the internet lose its collective mind. It turns out the gaming world was very ready for me. A year later, I became President and COO of Nintendo of America and spent the next 13+ years helping launch consoles you’ve probably lost hundreds of hours to — Wii, DS, 3DS, Switch… you're welcome.</p>
-        <p>I didn’t make the games, but I made you care about them. My job was to make sure Nintendo’s magic made it to your living room — and to occasionally say something outrageous on stage while doing it.</p>
-        <p>These days, I’m retired <span style="color: rgb(93, 93, 93);">(in theory)</span>, but I still speak at universities, serve on boards, mentor leaders, and tweet like your favorite uncle who just discovered LinkedIn. I also wrote a book — Disrupting the Game — where I explain how I went from the Bronx to the big leagues, and how you can too.</p>
+    <p style="margin: 2px;">Former <span class="bold">President of Nintendo of America</span>, professional name-taker, ass-kicker, and proud owner of the phrase “My body is ready.”</p>
+    <p style="margin: 2px;">Before I was meme’d into gaming history, I was just a kid from the Bronx trying to figure out how to take over the <span class="bold">business world</span> one bold move at a time.</p>
+    <p style="margin-bottom: 2px;">I’ve worked in fast food, soft drinks, TV networks, and, eventually, video games — which means I’ve basically<span class="bold">mastered every form of dopamine delivery</span>  known to mankind.</p>
+    <p style="margin: 2px;">In 2004, I walked onto the E3 stage and said a sentence that made the internet lose its collective mind. It turns out the gaming world was very ready for me.</p>
+    <p style="margin-bottom: 2px;">A year later, I became <span class="bold">President and COO of Nintendo of America</span> and spent the next 13+ years helping launch consoles you’ve probably lost hundreds of hours to — Wii, DS, 3DS, Switch… you're welcome.</p>
+    <p style="margin: 2px;">I didn’t make the games, but <span class="bold">I made you care about them.</span> My job was to make sure Nintendo’s magic made it to your living room — and to occasionally say something outrageous on stage while doing it.</p>
+    <p style="margin-bottom: 2px;">These days, I’m retired (in theory), but I still speak at universities, serve on boards, mentor leaders, and tweet like your favorite uncle who just discovered LinkedIn.</p>
+    <p style="margin: 2px;">I also wrote a book <span class="bold">— Disrupting the Game —</span> where I explain how I went from the Bronx to the big leagues, and how you can too.</p>
 
-    <h2>These are my 3 rules</h2>
-        <ol>
-            <li>kickin' ass</li>
-            <li>takin' names</li>
-            <li>makin' games</li>
-        </ol>
+</div>
 
-    <div style="background-color: rgb(241, 255, 43);color: red;">
-        <h2>What's Wrong With You?</h2>
+<hr style="margin: 20px;">
+
+<div class="rule">
+    <div class="block" style="margin: 0;">
+        <img style="max-width: 155.5px;" src="angryreggie.jpg" alt="reggie get angry"/>
+    </div>
+
+    <div style="background: linear-gradient(90deg,rgba(18, 18, 18, 1) 37%, rgba(110, 110, 110, 1) 71%, rgba(255, 255, 255, 1) 96%); width: 700px; height: 152px;color: white;" class="block">
+        <h2 style="margin-left: 10px;">MY 3 RULES</h2>
+            <ol style="padding-left: 40px;">
+                <li>kickin' ass</li>
+                <li>takin' names</li>
+                <li>makin' games</li>
+            </ol>
+    </div>       
+</div>
+
+<hr style="margin: 20px;">
+
+<div>
+    
+    <div style="background-color: antiquewhite; padding: 20px;">
+
+    <div class="reggie">
+        <h2 style="margin-bottom: 5px; margin-top: 0;">You need to get your Body Ready!</h2>
     </div>
    
-   <form style="background-color: rgb(227, 227, 227);" onsubmit="alert('Alright, tough break—you didn’t win the Balance Board this time! But don’t worry, keep playing, keep trying, and let’s go for the next one!')">
-        <p>Step right up! Enter your info for a chance to snag an exclusive Wii Fit Balance Board—don’t wait, don’t hesitate, let’s go, make it yours!</p>
-        <div>
+   <form onsubmit="alert('Alright, tough break—you didn’t win the Balance Board this time! But don’t worry, keep playing, keep trying, and let’s go for the next one!')">
+        <p style="margin-top: 0;">Step right up! Enter your info for a chance to snag an exclusive Wii Fit Balance Board—don’t wait, don’t hesitate, let’s go, make it yours!</p>
+        <div >
             Name
-            <input type="text" placeholder="Reggie Fils-Aimé">
+            <input class="input" type="text" placeholder="Reggie Fils-Aimé">
         </div>
         <div>
             Email
-            <input type="email" placeholder="mybodyisreggie@gmail.com">
+            <input class="input" type="email" placeholder="mybody@gmail.com">
         </div>
-        <div>
+        <div >
             Password
-            <input type="password" placeholder="I’m not gonna tell anyone">
+            <input class="input" type="password" placeholder="I’m not gonna tell anyone">
         </div>
         <div>
             How old is your body?
-            <input type="date">
+            <input class="input" type="date">
         </div>
-        <div>
+        <div >
             Your Number
-            <input type="number" placeholder="I will call you">
+            <input class="input" type="number" placeholder="I will call you">
         </div>
         <div>
-            <p style="margin-bottom: 0.5%; margin-top: 1%;">Alright, I gotta ask—what’s your favorite Animal Crossing game?</p>
+            <p style="margin-bottom: 2px;">Alright, I gotta ask—what’s your favorite Animal Crossing game?</p>
             <input type="checkbox">
             Wild Wolrd
             <input type="checkbox">
@@ -63,19 +89,24 @@
             <input type="checkbox">
             New Horizons
         </div>
-        <div style="margin-top: 1%;">
+        <div>
+            <hr>
             <input type="radio" placeholder="Enter your name">
-            By continuing, you accept the Terms and Conditions—let’s make it official, let’s go!
+            By continuing, you accept the Terms and Conditions...
+            You’ll never know them—trust me and accept it. Let’s move forward!
+
         </div>   
-        <button style="margin: 1%;" type="submit">SUBMIT</button>                     
+        <button style="margin-top: 20px;" type="submit">SEND IT TO REGGIE</button>                     
     </form>
 
+    </div>
 
-   <div>
+   <div style="margin-top: 50px; margin-bottom: 20px; margin-left: 10px;">
         <a href="https://youtu.be/uZWKuUymKdM?si=dLYC-V042ngpSc3D">
         If this site is not displayed it is a Sony's issue
         </a>
    </div>
+</div>
 
 </body>
 </html>
